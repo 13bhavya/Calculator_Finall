@@ -1,10 +1,13 @@
-//
-//  ViewController.swift
 //  Calculator_Final
 //
 //  Created by Student on 2019-10-02.
 //  Copyright © 2019 CentennialCollege. All rights reserved.
-//
+//  Name : Bhavya Shah
+//  Student-ID : 301076681
+//  Date : 4h Oct'2019
+//  Version History : Added functionality for Button,
+// operator (+,-,/,=,.%, *)
+// Description : Final Version
 
 import UIKit
 
