@@ -13,7 +13,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
+   // This function connects with screen display.
     @IBOutlet weak var displayNum: UILabel!
     
     var previousNum : Double = 0
@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     var modOccured = false
     var decimal : Bool = false
     
-    
+    //This function connects with number button
     @IBAction func numButtonsPressed(_ sender: UIButton) {
         //print(sender.tag)
         if (displayNum.text! == "0" || displayNum.text! == "+" || displayNum.text! == "-" || displayNum.text! == "*" || displayNum.text! == "/" || modOccured ) && !(sender.tag == 0) && !(sender.tag==100){
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    
+     //This function connects with all the operations.
     @IBAction func performOperation(_ sender: UIButton) {
         
         if previousNum==0 {
@@ -67,14 +67,14 @@ class ViewController: UIViewController {
                 previousNum /= currentNumber
             }
         }
-        
+        //Tag 4 includes percentage operator
         if sender.tag == 4{
             currentNumber = Double(displayNum.text!) ?? 0
             previousNum = currentNumber/100
             modOccured = true
             decimal = true
         }
-        
+        //Tag 10 includes Equal Operator
         if sender.tag == 10 || sender.tag == 4{
             decimal = true
             displayNum.text = String(previousNum)
@@ -96,7 +96,7 @@ class ViewController: UIViewController {
         modOccured = false
         decimal = false
     }
-    
+    //This function conects with the Back operator
     @IBAction func erase(_ sender: UIButton) {
         
         if displayNum.text!.count > 1{
