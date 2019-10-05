@@ -515,7 +515,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sl4-NJ-McT">
                                                 <rect key="frame" x="0.0" y="0.0" width="177" height="80"/>
                                                 <subviews>
-                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bU-bR-l5D">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bU-bR-l5D">
                                                         <rect key="frame" x="0.0" y="0.0" width="177" height="80"/>
                                                         <color key="backgroundColor" red="0.22239659740000001" green="0.54693320290000003" blue="0.69606598980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
